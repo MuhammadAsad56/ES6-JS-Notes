@@ -190,14 +190,13 @@ console.log(ref);
 
 
 
-
 // default parameter
+// default parameter me hum function ke parameter me default value rakh sakte hen ke agar argumnent se value na mile to error show na kre blke default wali value use krle
 
-// default parameter me hum parameter me hum default value rakh sakte hen ke agar argumnent se value na mili to 
-
-function default(a,b){
-    console.log(a,b);
+function abc(a =6, b =7){
+    console.log(a + b);
 }
+abc()
 
 
 

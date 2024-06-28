@@ -164,8 +164,46 @@ console.log(ref);
 // console.log(find);
 
 
-let api_key = "fd5ced8e9f42996719c570d873580d24"
-let axios = axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${}&appid=${api_key}`)
+
+
+// Functions
+// 1)Higher Order and Call back Function
+// jis function ke argument me koi function pass kia jaye wo function higher Order function hota he aur jo function pass hua he wo call back function hota he
+
+// function foo(a){
+//     console.log("parent>>", a);
+// }
+// function childFoo(b){
+//    return console.log("child>>",b);
+// }
+// /*Foo Higher Order*/foo(childFoo(90))//childFoo callback
+
+
+
+
+// Arrow Functions:
+// arrow function shorter syntax he agr one line code he to without curly braces likh skte hen wo default me value return krta he aur agr one argument he to parenthesis bhi hata skte hen aur ye space bhi km leta he memory me
+// example
+// const sayHello = name => `hello ${name}`
+// console.log(sayHello("Asad"));
+
+
+
+
+
+// default parameter
+
+// default parameter me hum parameter me hum default value rakh sakte hen ke agar argumnent se value na mili to 
+
+function default(a,b){
+    console.log(a,b);
+}
+
+
+
+
+
+
 
 
 
